@@ -63,9 +63,17 @@ https://github.com/sqlitebrowser
 
 ## iOS APP 部分截图
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/1.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/1.png?raw=true" width = "200" height = "433" alt="截图1" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/2.png?raw=true)
+
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/2.png?raw=true" width = "200" height = "433" alt="截图2" 
+align=center>
+
+
+![截图1](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/1.png?raw=true)
+
+![截图2](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/2.png?raw=true)
 
 ![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/3.png?raw=true)
 
