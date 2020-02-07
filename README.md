@@ -71,7 +71,7 @@ align=center>
 align=center>
 
 
-![截图1](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/1.png?raw=true)
+![截图1](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/1.png?raw=true) = 200 * 433
 
 ![截图2](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/2.png?raw=true)
 
