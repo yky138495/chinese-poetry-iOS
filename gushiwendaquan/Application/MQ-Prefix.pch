@@ -1,0 +1,163 @@
+#ifdef LOAN_SPEED
+#import "../**.h"
+#else
+//不做混淆
+#endif
+//
+//  MQAI-Prefix.pch
+//  MQAI
+//
+//  Created by ymg on 14/12/11.
+//  Copyright (c) 2014年 ymg. All rights reserved.
+//
+
+#ifndef MQAI_MQAI_Prefix_pch
+#define MQAI_MQAI_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Availability.h>
+
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iOS SDK 6.0 and later."
+#endif
+
+//
+// 使用听云SDK
+//
+#ifdef DEBUG
+#define ENABLE_NBS 0
+#else
+#define ENABLE_NBS 1
+#endif
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+
+#import <Mantle/Mantle.h>
+#import <Masonry/Masonry.h>
+#import <CocoaSecurity/CocoaSecurity.h>
+#import <AFNetworking/UIImageView+AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFNetworkReachabilityManager.h>
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+#import "MJRefresh.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <JSONModel/JSONModel.h>
+#import <JSONModel/JSONHTTPClient.h>
+#import <SVProgressHUD.h>
+#import <MJExtension/MJExtension.h>
+#import <Toast/UIView+Toast.h>
+#import <pop/POP.h>
+
+#import "NSString+FGReverser.h"
+#import "UIImageView+WebCache.h"
+#import "MQMacros.h"
+#import "MQError.h"
+#import "MQLog.h"
+#import "MQStringUtil.h"
+#import "MQEnvironment.h"
+#import "MQAppHelper.h"
+
+#import "MQGlobal.h"
+#import "MQGlobalObject.h"
+#import "MQAPIDefines.h"
+#import "MQReportUtils.h"
+#import "MQFoundationAdditions.h"
+#import "MQThemeManager.h"
+#import "MQUIDefines.h"
+#import "UIViewAdditions.h"
+#import "MQBaseViewController.h"
+#import "UIColor+Hex.h"
+#import "UIView+Toast.h"
+#import "JDStatusBarNotification.h"
+#import "MQStringUtil.h"
+#import "MQAlertView.h"
+#import "MQNoDataView.h"
+#import "MQTableViewCell.h"
+
+#endif
+
+#define MQ_LOADING_SHOW  [SVProgressHUD show];
+#define MQ_LOADING_DISMISS [SVProgressHUD dismiss];
+
+#define MQ_TOAST(message) [[UIApplication sharedApplication].keyWindow makeToast:message duration:1.f position:CSToastPositionCenter];
+
+//
+// 是否采用半透明Bar
+//
+#define ENABLE_TRANSLUCENT_BAR 1
+
+
+
+ //禁止release版输出NSLog
+
+#ifndef __OPTIMIZE__
+#define NSLog(...) printf("%f %s\n",[[NSDate date]timeIntervalSince1970],[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+#else
+#define NSLog(...) {}
+#endif
+
+
+//
+// 设置MQLog级别
+//
+//#ifdef DEBUG
+//MQ_LOG_SET_LEVEL(LOG_LEVEL_VERBOSE);
+//#else
+//MQ_LOG_SET_LEVEL(LOG_LEVEL_INFO);
+//#endif
+
+
+
+#define RGB(R, G, B)    [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1.0]
+#define TopSpacing 50.0f
+#define BottomSpacing 40.0f
+#define LeftSpacing 20.0f
+#define RightSpacing  20.0f
+#define DELAYEXECUTE(delayTime,func) (dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayTime * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{func;}))
+#define DistanceFromTopGuiden(view) (view.frame.origin.y + view.frame.size.height)
+#define DistanceFromLeftGuiden(view) (view.frame.origin.x + view.frame.size.width)
+#define ViewOrigin(view)   (view.frame.origin)
+#define ViewSize(view)  (view.frame.size)
+#define ScreenSize [UIScreen mainScreen].bounds.size
+
+#define MQ_IS_LOGIN @"isLogin"
+
+#define MQColor(r,g,b) [UIColor colorWithRed:(r) / 256.0 green:(g) / 256.0 blue:(b) / 256.0 alpha:1]
+#define MQColorWithAlpha(r,g,b,a) [UIColor colorWithRed:(r) / 256.0 green:(g) / 256.0 blue:(b) / 256.0 alpha:(a)]
+#define MQRandomColor MQColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+#define IPHONE5 [[UIScreen mainScreen] bounds].size.height == 568.0
+#define IPHONE7PLUS [[UIScreen mainScreen] bounds].size.height == 736.0
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+//是否是iphoneX
+#define IsiphoneX  (kScreenHeight == 812)
+/** 导航栏加状态栏高度 */
+#define MQ_NavBarHeight (IS_PhoneXAll ? 88 : 64)
+/** 状态栏高度 */
+#define StatusBarHeight (IS_PhoneXAll ? 44 : 20)
+/** tabbar高度 */
+#define TabbarHeight (IS_PhoneXAll ? 83 : 49)
+/** 底部安全距离 */
+#define BottomSafeHeight (IS_PhoneXAll ? 34 : 0)
+
+#define LSYNoteNotification @"LSYNoteNotification"
+#define LSYThemeNotification @"LSYThemeNotification"
+#define LSYEditingNotification @"LSYEditingNotification"
+#define LSYEndEditNotification @"LSYEndEditNotification"
+
+#define MinFontSize 12.0f
+#define MaxFontSize 40.0f
+#define kDocuments NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject
+
+#endif
