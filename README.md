@@ -70,37 +70,54 @@ align=center>
 <img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/2.png?raw=true" width = "200" height = "433" alt="截图2" 
 align=center>
 
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/3.png?raw=true" width = "200" height = "433" alt="截图3" 
+align=center>
 
-![截图1](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/1.png?raw=true) = 200 * 433
 
-![截图2](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/2.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/4.png?raw=true" width = "200" height = "433" alt="截图4" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/3.png?raw=true)
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/4.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/5.png?raw=true" width = "200" height = "433" alt="截图5" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/5.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/6.png?raw=true" width = "200" height = "433" alt="截图6" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/6.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/7.png?raw=true" width = "200" height = "433" alt="截图7" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/7.png?raw=true)
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/8.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/8.png?raw=true" width = "200" height = "433" alt="截图8" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/9.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/9.png?raw=true" width = "200" height = "433" alt="截图9" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/10.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/10.png?raw=true" width = "200" height = "433" alt="截图10" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/11.png?raw=true)
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/12.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/11.png?raw=true" width = "200" height = "433" alt="截图11" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/13.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/12.png?raw=true" width = "200" height = "433" alt="截图12" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/14.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/13.png?raw=true" width = "200" height = "433" alt="截图13" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/15.png?raw=true)
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/16.png?raw=true)
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/14.png?raw=true" width = "200" height = "433" alt="截图14" 
+align=center>
 
-![](https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/17.png?raw=true)
+
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/15.png?raw=true" width = "200" height = "433" alt="截图15" 
+align=center>
+
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/16.png?raw=true" width = "200" height = "433" alt="截图16" 
+align=center>
+
+
+<img src="https://github.com/yky138495/chinese-poetry-iOS/blob/master/img/17.png?raw=true" width = "200" height = "433" alt="截图17" 
+align=center>
